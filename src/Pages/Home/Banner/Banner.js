@@ -20,7 +20,7 @@ const Banner = () => {
         //     marginBottom: "-80px"
         // }}
         >
-            <div className='px-5 xl:px-[120px] pt-5 lg:pt-14 flex'>
+            <div className='px-5 xl:px-[80px] pt-5 lg:pt-14 flex'>
 
                 {/* left side  */}
                 <div className='lg:w-1/2 lg:pr-10 text-center lg:text-start'>
@@ -28,7 +28,7 @@ const Banner = () => {
                         #Build strong Software to make your business more stronger.
                     </h3>
 
-                    <p className='font-["Poppins"] font-bold text-xl lg:text-[35px] text-[#0C0047] lg:leading-[57px] lg:tracking-[0.02em] my-1 '>
+                    <p className='font-["Poppins"] font-bold text-xl lg:text-2xl xl:text-[35px] text-[#0C0047] xl:leading-[57px] lg:tracking-[0.02em] my-1 '>
                         The Best <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#0D6EFD] to-[#6803A6]'>
                             Software Development
                         </span>
@@ -69,14 +69,14 @@ const Banner = () => {
                 </div>
             </div>
 
-            <div className='absolute top-[230px] lg:top-[290px] right-2 lg:right-9'>
+            <div className='absolute top-[230px] lg:top-[290px] right-2 lg:right-5'>
                 <div><img className='w-11 h-11 cursor-pointer hover:scale-110 mb-3' src={whatsappIco} alt="" /></div>
                 <div><img className='w-11 h-11 cursor-pointer hover:scale-110' src={messengerIco} alt="" /></div>
             </div>
 
             {/* backgroundImage  */}
             <div>
-                <img className='absolute top-0 z-[-1] h-[650px]' src={bannerBG} alt="" />
+                <img className='absolute top-0 z-[-1] h-[711px]' src={bannerBG} alt="" />
             </div>
         </section>
     );

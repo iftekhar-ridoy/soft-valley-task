@@ -62,7 +62,7 @@ const Testimonial = () => {
                     //     "--swiper-pagination-bullet-size": "10px",
                     //     "--swiper-pagination-bullet-horizontal-gap": "6px"
                     // }}
-                    className="mySwiper h-[580px] md:h-[350px] lg:h-[580px]"
+                    className="mySwiper h-[500px] md:h-[350px] lg:h-[650px] xl:h-[580px]"
                     slidesPerView={3}
                     spaceBetween={30}
 

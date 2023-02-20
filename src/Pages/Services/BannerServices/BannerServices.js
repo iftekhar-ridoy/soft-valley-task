@@ -92,7 +92,7 @@ const BannerServices = () => {
             </div>
 
             {/* social btn  */}
-            <div className='absolute top-[230px] lg:top-[290px] right-2 lg:right-9'>
+            <div className='absolute top-[230px] lg:top-[290px] right-2 lg:right-5'>
                 <div><img className='w-11 h-11 cursor-pointer hover:scale-110 mb-3' src={whatsappIco} alt="" /></div>
                 <div><img className='w-11 h-11 cursor-pointer hover:scale-110' src={messengerIco} alt="" /></div>
             </div>

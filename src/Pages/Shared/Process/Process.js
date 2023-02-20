@@ -3,7 +3,7 @@ import line from '../../../Assets/background/line.png';
 
 const Process = () => {
     return (
-        <section className='mt-20 lg:mt-[100px] mx-5 xl:mx-[120px] relative mb-20 lg:mb-[500px]'>
+        <section className='mt-20 lg:mt-[100px] mx-5 xl:mx-[120px] relative mb-20 xl:mb-[500px]'>
             <div>
                 <h3 className='font-sans font-medium text-sm text-[#F15524] md:mb-[14px]'>POS Operation Across the world</h3>
                 <h1 className='font-["Manrope"] font-extrabold text-2xl lg:text-[40px] text-[#0C0047] lg:leading-10 tracking-[0.005em] mb-2'>We have the best team <br />
@@ -16,7 +16,7 @@ const Process = () => {
                 <img className='hidden xl:block' src={line} alt="" />
 
                 {/* process-01  */}
-                <div className='xl:absolute xl:top-[320px] xl:left-[110px] xl:w-[280px]'>
+                <div className='xl:absolute xl:top-[300px] xl:left-[110px] xl:w-[280px]'>
 
                     {/* round shape  */}
                     <div className='hidden xl:block'>
@@ -38,7 +38,7 @@ const Process = () => {
 
 
                 {/* process-02 */}
-                <div className='xl:absolute xl:top-[230px] xl:left-[450px] xl:w-[280px] my-5 lg:my-0'>
+                <div className='xl:absolute xl:top-[210px] xl:left-[450px] xl:w-[280px] my-5 lg:my-0'>
 
                     {/* round shape  */}
                     <div className='hidden xl:block'>
@@ -60,7 +60,7 @@ const Process = () => {
 
 
                 {/* process-03 */}
-                <div className='xl:absolute xl:top-[170px] xl:left-[880px] xl:w-[280px]'>
+                <div className='xl:absolute xl:top-[100px] xl:left-[880px] xl:w-[280px]'>
 
                     <div className='relative'>
                         {/* round shape  */}
