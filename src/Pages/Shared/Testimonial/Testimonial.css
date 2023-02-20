@@ -1,0 +1,12 @@
+.mySwiper .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #F15524;
+}
+
+.mySwiper .swiper-slide-next {
+    margin-top: -80px;
+}
+
+.mySwiper .swiper-slide-next .qoutation {
+    display: none;
+}
