@@ -39,10 +39,10 @@ const BannerCRM = () => {
                         with <span className='text-[#F15524]'>Mobile App.</span>
                     </p>
 
-                    <p className='font-["Nunito"] font-normal text-xs md:text-sm lg:text-base text-[#1E1E1E] w-full max-w-[524px] mt-[10px] lg:mt-[30px] md:leading-[22px]'>Lorem ipsum dolor sit amet consectetur. Justo fusce eu vitae ultrices vulputate placerat nisl volutpat. Id at in laoreet nibh leo mauris. At turpis adipiscing risus nec id est eget. Etiam viverra ornare ullamcorper cum.Lorem ipsum dolor sit amet consectetur. Justo fusce eu vitae ultrices vulputate placerat nisl volutpat. Id at in laoreet nibh leo mauris. At turpis adipiscing risus nec id est eget. Etiam viverra ornare ullamcorper cum.</p>
+                    <p className='font-["Nunito"] font-normal text-xs md:text-sm lg:text-base text-[#1E1E1E] w-full max-w-[524px] mt-[10px] lg:mt-[30px] md:leading-[22px]'>Lorem ipsum dolor sit amet consectetur. Justo fusce eu vitae ultrices vulputate placerat nisl volutpat. Id at in laoreet nibh leo mauris. At turpis adipiscing risus nec id est eget.<span className='text-[#006CEC] cursor-pointer md:hidden'>..Read More</span> <span className='hidden md:block'>Etiam viverra ornare ullamcorper cum.Lorem ipsum dolor sit amet consectetur. Justo fusce eu vitae ultrices vulputate placerat nisl volutpat. Id at in laoreet nibh leo mauris. At turpis adipiscing risus nec id est eget. Etiam viverra ornare ullamcorper cum.</span></p>
 
-                    <div className='flex items-center justify-center gap-4 mt-5 lg:mt-[30px]'>
-                        <button className='flex gap-[10px] items-center justify-center bg-[#006CEC] border hover:border-[#006CEC] hover:bg-white rounded-md text-white hover:text-[#006CEC] font-medium text-sm lg:text-base md:leading-[30px] md:tracking-[-0.02em] py-[10px] px-[17px] lg:px-[37px]'><BsFillPlayCircleFill className='h-6 w-6'></BsFillPlayCircleFill> Watch Demo</button>
+                    <div className='flex items-center justify-center lg:justify-start gap-4 mt-5 lg:mt-[30px]'>
+                        <button className='flex gap-[10px] items-center justify-center bg-[#006CEC] border border-[#006CEC] hover:bg-white rounded-md text-white hover:text-[#006CEC] font-medium text-sm lg:text-base md:leading-[30px] md:tracking-[-0.02em] py-[10px] lg:py-[13px] px-[17px] lg:px-[37px]'><BsFillPlayCircleFill className='h-6 w-6'></BsFillPlayCircleFill> Watch Demo</button>
 
                         <button className='border border-[#006CEC] hover:bg-[#006CEC] rounded-md text-[#006CEC] hover:text-white font-medium text-base md:leading-[30px] md:tracking-[-0.02em] py-[10px] px-[47px] lg:px-[67px]'>Buy Now</button>
                     </div>

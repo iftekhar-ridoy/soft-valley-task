@@ -64,7 +64,7 @@ const Navbar = () => {
             {/* about  */}
             <li>
                 <NavLink
-                    to="messages"
+                    to="/about"
                     style={({ isActive }) =>
                         isActive ? activeStyle : undefined
                     }

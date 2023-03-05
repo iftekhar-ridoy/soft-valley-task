@@ -79,7 +79,7 @@ const BenifitsOfOurCrmSoft = () => {
     ]
 
     return (
-        <section className='max-w-[1282px] mx-auto px-5 lg:px-0 lg:mt-[90px]'>
+        <section className='max-w-[1282px] mx-auto px-5 lg:px-0 mt-10 lg:mt-[90px]'>
             <h1 className='font-["Manrope"] font-extrabold text-2xl lg:text-[40px] text-[#0C0047] lg:leading-[55px] tracking-[0.005em] text-center'>Benifits Of Our <span className='text-[#F15524]'>CRM Software</span></h1>
             <h3 className='font-["Manrope"] text-xs md:text-base md:leading-8 tracking-[0.5px] text-[#584F49] text-center mt-5 max-w-[1038px] mx-auto'>There are a lot of interesting features that will boost your business up. We are the best CRM software company. Those features are going to make your work so easy and give you ultimate control over your business. Maintain your small or local business by using SoftValley sales ERP.</h3>
 
@@ -102,7 +102,7 @@ const BenifitsOfOurCrmSoft = () => {
             </div>
 
             <div className='flex items-center justify-center mt-10 md:mt-16'>
-                <button className='flex items-center  font-["Poppins"] font-medium text-base text-white hover:text-[#006CEC] bg-[#006CEC] hover:bg-white border hover:border-[#006CEC] rounded-[7px] py-[7px] md:py-[15px] px-10 md:px-[70px]'>More Feature <FiArrowRight className='h-6 w-6 ml-2'></FiArrowRight></button>
+                <button className='flex items-center  font-["Poppins"] font-medium text-base text-white hover:text-[#006CEC] bg-[#006CEC] hover:bg-white border hover:border-[#006CEC] rounded-[7px] py-[10px] md:py-[15px] px-10 md:px-[70px]'>More Feature <FiArrowRight className='h-6 w-6 ml-2'></FiArrowRight></button>
             </div>
         </section>
     );
