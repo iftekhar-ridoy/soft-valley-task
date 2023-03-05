@@ -102,7 +102,7 @@ const BenifitsOfOurCrmSoft = () => {
             </div>
 
             <div className='flex items-center justify-center mt-10 md:mt-16'>
-                <button className='flex items-center  font-["Poppins"] font-medium text-base text-white hover:text-[#006CEC] bg-[#006CEC] hover:bg-white border hover:border-[#006CEC] rounded-[7px] py-[10px] md:py-[15px] px-10 md:px-[70px]'>More Feature <FiArrowRight className='h-6 w-6 ml-2'></FiArrowRight></button>
+                <button className='flex items-center  font-["Poppins"] font-medium text-base text-white hover:text-[#006CEC] bg-[#006CEC] hover:bg-white border hover:border-[#006CEC] rounded-[7px] py-[10px] md:py-[13px] px-10 md:px-[70px]'>More Feature <FiArrowRight className='h-6 w-6 ml-2'></FiArrowRight></button>
             </div>
         </section>
     );

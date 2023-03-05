@@ -46,7 +46,7 @@ const WhoCanBenifit = () => {
                             <p className='mt-2 text-[#191A15] font-["Manrope"] text-base leading-[30px] tracking-[0.05em]'>With the CRM module, you can boost your sales. To build up a long-term business CRM can play a vital role. Sales ERP software has an enhanced CRM system to communicate with customers and keep track of every single purchase of a customer. With the CRM module, you can boost your sales. To build up a long-term business CRM can play a vital role. Sales ERP software has an enhanced CRM system to communicate with customers and keep track of every single purchase of a customer. These features include the following section:</p>
 
                             <div className='flex items-center justify-center lg:justify-start gap-4 mt-5 lg:mt-[30px]'>
-                                <button className='flex gap-[10px] items-center justify-center bg-[#006CEC] border border-[#006CEC] hover:bg-white rounded-md text-white hover:text-[#006CEC] font-medium text-sm lg:text-base md:leading-[30px] md:tracking-[-0.02em] py-[12px] px-[17px] lg:px-[37px]'>More Details</button>
+                                <button className='flex gap-[10px] items-center justify-center bg-[#006CEC] border border-[#006CEC] hover:bg-white rounded-md text-white hover:text-[#006CEC] font-medium text-sm lg:text-base md:leading-[30px] md:tracking-[-0.02em] py-[12px] lg:py-[13px] px-[17px] lg:px-[37px]'>More Details</button>
 
                                 <button className='border border-[#006CEC] hover:bg-[#006CEC] rounded-md text-[#006CEC] hover:text-white font-medium text-base md:leading-[30px] md:tracking-[-0.02em] py-[10px] px-[47px] lg:px-[67px]'>Buy Now</button>
                             </div>
@@ -64,7 +64,7 @@ const WhoCanBenifit = () => {
                             <p className='mt-2 text-[#191A15] font-["Manrope"] text-base leading-[30px] tracking-[0.05em]'>With the CRM module, you can boost your sales. To build up a long-term business CRM can play a vital role. Sales ERP software has an enhanced CRM system to communicate with customers and keep track of every single purchase of a customer. With the CRM module, you can boost your sales. To build up a long-term business CRM can play a vital role. Sales ERP software has an enhanced CRM system to communicate with customers and keep track of every single purchase of a customer. These features include the following section:</p>
 
                             <div className='flex items-center justify-center lg:justify-start gap-4 mt-5 lg:mt-[30px]'>
-                                <button className='flex gap-[10px] items-center justify-center bg-[#006CEC] border border-[#006CEC] hover:bg-white rounded-md text-white hover:text-[#006CEC] font-medium text-sm lg:text-base md:leading-[30px] md:tracking-[-0.02em] py-[12px] px-[17px] lg:px-[37px]'>More Details</button>
+                                <button className='flex gap-[10px] items-center justify-center bg-[#006CEC] border border-[#006CEC] hover:bg-white rounded-md text-white hover:text-[#006CEC] font-medium text-sm lg:text-base md:leading-[30px] md:tracking-[-0.02em] py-[12px] lg:py-[13px] px-[17px] lg:px-[37px]'>More Details</button>
 
                                 <button className='border border-[#006CEC] hover:bg-[#006CEC] rounded-md text-[#006CEC] hover:text-white font-medium text-base md:leading-[30px] md:tracking-[-0.02em] py-[10px] px-[47px] lg:px-[67px]'>Buy Now</button>
                             </div>
@@ -82,7 +82,7 @@ const WhoCanBenifit = () => {
                             <p className='mt-2 text-[#191A15] font-["Manrope"] text-base leading-[30px] tracking-[0.05em]'>With the CRM module, you can boost your sales. To build up a long-term business CRM can play a vital role. Sales ERP software has an enhanced CRM system to communicate with customers and keep track of every single purchase of a customer. With the CRM module, you can boost your sales. To build up a long-term business CRM can play a vital role. Sales ERP software has an enhanced CRM system to communicate with customers and keep track of every single purchase of a customer. These features include the following section:</p>
 
                             <div className='flex items-center justify-center lg:justify-start gap-4 mt-5 lg:mt-[30px]'>
-                                <button className='flex gap-[10px] items-center justify-center bg-[#006CEC] border border-[#006CEC] hover:bg-white rounded-md text-white hover:text-[#006CEC] font-medium text-sm lg:text-base md:leading-[30px] md:tracking-[-0.02em] py-[12px] px-[17px] lg:px-[37px]'>More Details</button>
+                                <button className='flex gap-[10px] items-center justify-center bg-[#006CEC] border border-[#006CEC] hover:bg-white rounded-md text-white hover:text-[#006CEC] font-medium text-sm lg:text-base md:leading-[30px] md:tracking-[-0.02em] py-[12px] lg:py-[13px] px-[17px] lg:px-[37px]'>More Details</button>
 
                                 <button className='border border-[#006CEC] hover:bg-[#006CEC] rounded-md text-[#006CEC] hover:text-white font-medium text-base md:leading-[30px] md:tracking-[-0.02em] py-[10px] px-[47px] lg:px-[67px]'>Buy Now</button>
                             </div>

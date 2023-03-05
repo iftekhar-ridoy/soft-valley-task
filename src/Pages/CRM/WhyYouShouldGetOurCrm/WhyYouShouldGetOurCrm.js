@@ -30,7 +30,7 @@ const WhyYouShouldGetOurCrm = () => {
                 </div>
 
                 <div className='flex items-center justify-start mt-[30px]'>
-                    <button className='flex items-center  font-["Poppins"] font-medium text-base text-white hover:text-[#006CEC] bg-[#006CEC] hover:bg-white border hover:border-[#006CEC] rounded-[7px] py-[7px] md:py-[15px] px-10 md:px-[70px]'>See Demo</button>
+                    <button className='flex items-center  font-["Poppins"] font-medium text-base text-white hover:text-[#006CEC] bg-[#006CEC] hover:bg-white border hover:border-[#006CEC] rounded-[7px] py-[7px] md:py-[13px] px-10 md:px-[70px]'>See Demo</button>
                 </div>
             </div>
 
