@@ -10,12 +10,13 @@ const Navbar = () => {
 
     let activeStyle = {
         // textDecoration: "underline",
-        color: "#F15524"
+        color: "#F15524",
+        fontWeight: 600,
     };
 
 
     const menuItems =
-        <ul className='flex flex-col md:flex-row gap-5 lg:gap-[35px] text-xs lg:text-base font-semibold md:leading-[24px]'>
+        <ul className='flex flex-col md:flex-row gap-5 lg:gap-[35px] text-xs lg:text-base font-medium md:leading-[24px] text-[#0C0047]'>
 
             {/* home  */}
             <li>
@@ -30,113 +31,33 @@ const Navbar = () => {
             </li>
 
 
-            {/* products dropdown  */}
-            <div className="dropdown inline-block relative">
-                <button className="rounded inline-flex items-center">
-                    <li>
-                        <NavLink
-                            to="messages"
-                            style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            }
-                        >
-                            Products
-                        </NavLink>
-                    </li>
+            {/* products */}
+            <li className="rounded inline-flex items-center">
+                <NavLink
+                    to="messages"
+                    style={({ isActive }) =>
+                        isActive ? activeStyle : undefined
+                    }
+                >
+                    Products
+                </NavLink>
+                <svg className="fill-current h-5 w-5 ml-1 text-[#BDBDBD]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg>
+            </li>
+
+
+            {/* services */}
+            <div className='dropdown'>
+                <li className="rounded inline-flex items-center">
+                    <NavLink
+                        to="/services"
+                        style={({ isActive }) =>
+                            isActive ? activeStyle : undefined
+                        }
+                    >
+                        Services
+                    </NavLink>
                     <svg className="fill-current h-5 w-5 ml-1 text-[#BDBDBD]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg>
-                </button>
-                <ul className="dropdown-menu absolute hidden shadow-lg bg-[#FFFAFA] w-[150px] p-2">
-                    {/* product 01  */}
-                    <li className='pb-2'>
-                        <NavLink
-                            to="messages"
-                            style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            }
-                        >
-                            Product 01
-                        </NavLink>
-                    </li>
-
-                    {/* product 02  */}
-                    <li className='pb-2'>
-                        <NavLink
-                            to="messages"
-                            style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            }
-                        >
-                            Product 02
-                        </NavLink>
-                    </li>
-
-                    {/* product 03 */}
-                    <li className='pb-2'>
-                        <NavLink
-                            to="messages"
-                            style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            }
-                        >
-                            Product 03
-                        </NavLink>
-                    </li>
-                </ul>
-            </div>
-
-
-            {/* services dropdown  */}
-            <div className="dropdown inline-block relative">
-                <button className="rounded inline-flex items-center">
-                    <li>
-                        <NavLink
-                            to="/services"
-                            style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            }
-                        >
-                            Services
-                        </NavLink>
-                    </li>
-                    <svg className="fill-current h-5 w-5 ml-1 text-[#BDBDBD]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg>
-                </button>
-                <ul className="dropdown-menu absolute hidden shadow-lg bg-[#FFFAFA] w-[150px] p-2">
-                    {/* service 01  */}
-                    <li className='pb-2'>
-                        <NavLink
-                            to="messages"
-                            style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            }
-                        >
-                            Service 01
-                        </NavLink>
-                    </li>
-
-                    {/* service 02  */}
-                    <li className='pb-2'>
-                        <NavLink
-                            to="messages"
-                            style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            }
-                        >
-                            Service 02
-                        </NavLink>
-                    </li>
-
-                    {/* service 03 */}
-                    <li className='pb-2'>
-                        <NavLink
-                            to="messages"
-                            style={({ isActive }) =>
-                                isActive ? activeStyle : undefined
-                            }
-                        >
-                            Service 03
-                        </NavLink>
-                    </li>
-                </ul>
+                </li>
             </div>
 
 
@@ -164,50 +85,51 @@ const Navbar = () => {
                     Contact
                 </NavLink>
             </li>
-        </ul>
+        </ul >
 
     return (
-        <nav className="w-full bg-[#FFFAFA] px-0 xl:px-[120px] border-b-[0.07px] border-[#EAEAEA] font-['Poppins'] py-1" >
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <nav className="sticky top-0 z-30 w-full bg-[#FFFAFA] px-5 lg:px-10 2xl:px-[158px] border-b-[0.07px] border-[#EAEAEA] font-['Poppins'] py-5" >
+            <div className="justify-between mx-auto  items-center md:flex">
                 <div>
                     <div className="flex items-center justify-between md:block">
                         <div>
-                            <Link to='/'><img className='w-[120px] lg:w-[226px] lg:h-[80px]' src={logo} alt="" /></Link>
+                            <Link to='/'><img className='w-[180px] md:w-[226px]' src={logo} alt="" /></Link>
                         </div>
                         <div className="md:hidden">
                             <button
                                 className="p-2 text-gray-700 rounded-md outline-none "
                                 onClick={() => setNavbar(!navbar)}
                             >
-                                {navbar ? (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6"
-                                        viewBox="0 0 20 20"
-                                        fill="currentColor"
-                                    >
-                                        <path
-                                            fillRule="evenodd"
-                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                                            clipRule="evenodd"
-                                        />
-                                    </svg>
-                                ) : (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        strokeWidth={2}
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            d="M4 6h16M4 12h16M4 18h16"
-                                        />
-                                    </svg>
-                                )}
+                                {
+                                    navbar ? (
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="w-6 h-6"
+                                            viewBox="0 0 20 20"
+                                            fill="currentColor"
+                                        >
+                                            <path
+                                                fillRule="evenodd"
+                                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                                clipRule="evenodd"
+                                            />
+                                        </svg>
+                                    ) : (
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="w-6 h-6"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                            strokeWidth={2}
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                d="M4 6h16M4 12h16M4 18h16"
+                                            />
+                                        </svg>
+                                    )}
                             </button>
                         </div>
                     </div>

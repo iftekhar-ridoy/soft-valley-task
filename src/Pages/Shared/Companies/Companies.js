@@ -6,21 +6,60 @@ import company4 from '../../../Assets/images/company/company4.png';
 import company5 from '../../../Assets/images/company/company5.png';
 import company6 from '../../../Assets/images/company/company6.png';
 import company7 from '../../../Assets/images/company/company7.png';
+import Marquee from 'react-fast-marquee';
+import './Companies.css'
 
 const Companies = () => {
-    return (
-        <section className='mt-20 lg:mt-[150px]'>
-            <h2 className='text-center font-["Manrope"] font-semibold text-[22px] md:leading-[30px] text-[#0C0047]'>Companies we have helped to grow</h2>
+    const companies = [
+        {
+            id: 1,
+            company: company1
+        },
+        {
+            id: 2,
+            company: company2
+        },
+        {
+            id: 3,
+            company: company3
+        },
+        {
+            id: 4,
+            company: company4
+        },
+        {
+            id: 5,
+            company: company5
+        },
+        {
+            id: 6,
+            company: company6
+        },
+        {
+            id: 7,
+            company: company7
+        },
+    ]
 
-            <div className='flex flex-wrap gap-5 lg:gap-10 justify-center py-5 md:py-10'>
-                <img className='h-3 lg:h-6' src={company1} alt="" />
-                <img className='h-3 lg:h-6' src={company2} alt="" />
-                <img className='h-3 lg:h-6' src={company3} alt="" />
-                <img className='h-3 lg:h-6' src={company4} alt="" />
-                <img className='h-3 lg:h-6' src={company5} alt="" />
-                <img className='h-3 lg:h-6' src={company6} alt="" />
-                <img className='h-3 lg:h-6' src={company7} alt="" />
+    return (
+        <section className='mt-20 lg:mt-[150px] 2xl:mt-[265px] w-full max-w-[1282px] mx-auto'>
+            <h2 className='text-center font-["Manrope"] font-semibold text-[20px] md:text-[22px] md:leading-[30px] text-[#0C0047]'>Companies we have helped to grow</h2>
+
+            <div className='my-5 md:my-12 mx-5 md:mx-0 flex '>
+                <div className='w-[100%]'>
+                    <Marquee className='' speed={100}>
+                        <div className='flex flex-row '>
+                            {
+                                companies.map((data) => (
+                                    <div className='w-full'>
+                                        <img className='h-4 mr-14 md:h-5 max-w-[120px] mx-auto' src={data.company} alt="" />
+                                    </div>
+                                ))}
+                        </div>
+                    </Marquee>
+                </div>
             </div>
+
         </section>
     );
 };

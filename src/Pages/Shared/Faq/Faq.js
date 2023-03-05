@@ -26,7 +26,7 @@ const Faq = () => {
 
     ]
     return (
-        <section className='mx-5 xl:mx-[120px] mt-20 lg:mt-[150px]'>
+        <section className='max-w-[1282px] mx-auto px-5 xl:px-0 mt-20 lg:mt-[150px]'>
             <div className='text-center font-["Manrope"]'>
                 <h3 className='text-[#F15524] text-lg font-bold leading-[25px]'>FAQs</h3>
                 <h1 className='text-2xl md:text-[20px] lg:text-[40px] text-[#2E2E2E] lg:leading-[60px] font-extrabold tracking-[0.0053m]'>Ask Us Anything</h1>
@@ -39,14 +39,14 @@ const Faq = () => {
                     {
                         faqs?.map(faq =>
                             <div key={faq.id}>
-                                <div className="accordion-container lg:w-[70%] mx-auto ">
+                                <div className="accordion-container mx-auto ">
                                     <div className=" collapse collapse-arrow lg:px-[60px] lg:py-[20px]">
                                         <input type="checkbox" className="" />
                                         <div className="collapse-title flex items-center justify-between">
-                                            <p className='text-sm lg:text-base'>{faq.title}</p>
+                                            <p className='text-sm lg:text-[18px] font-medium font-["Manrope"] lg:leading-[28px] text-[#2E2E2E]'>{faq.title}</p>
                                         </div>
                                         <div className="collapse-content ">
-                                            <p className='text-sm lg:text-base'>{faq.description}</p>
+                                            <p className='text-sm lg:text-base text-[#808080] font-["Manrope"]lg:leading-[30px]'>{faq.description}</p>
                                         </div>
                                     </div>
                                 </div>

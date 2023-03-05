@@ -1,34 +1,24 @@
 import React from 'react';
 import bannerBG from '../../../Assets/background/bannerBG.png';
 import playBtn from '../../../Assets/icon/playBtn.png';
-import homeBannerImage from '../../../Assets/images/homeBannerImage.png';
 import greenOK from '../../../Assets/icon/greenOk.png';
-import messengerIco from '../../../Assets/icon/messenger.png';
-import whatsappIco from '../../../Assets/icon/whatsapp.png';
+import bigLayer from '../../../Assets/images/homeBanner/Background.png';
+import layer1 from '../../../Assets/images/homeBanner/Layer 1.png';
+import layer2 from '../../../Assets/images/homeBanner/Layer 2.png';
+import layer3 from '../../../Assets/images/homeBanner/Layer 3.png';
 
 const Banner = () => {
     return (
-        <section
-        // style=
-        // {{
-        //     backgroundImage: `url(${bannerBG})`,
-        //     backgroundRepeat: "no-repeat",
-        //     backgroundSize: "contain",
-        //     height: 718,
-        //     width: "100%",
-        //     // position: "relative",
-        //     marginBottom: "-80px"
-        // }}
-        >
-            <div className='px-5 xl:px-[80px] pt-5 lg:pt-14 flex'>
+        <section>
+            <div className='px-5 lg:px-10 2xl:px-[161px] pt-5 lg:pt-20 flex gap-20'>
 
                 {/* left side  */}
-                <div className='lg:w-1/2 lg:pr-10 text-center lg:text-start'>
+                <div className='lg:w-1/2  text-center lg:text-start'>
                     <h3 className='text-[#0D6EFD] font-["Nunito"] font-semibold text-xs lg:text-base'>
                         #Build strong Software to make your business more stronger.
                     </h3>
 
-                    <p className='font-["Poppins"] font-bold text-xl lg:text-2xl xl:text-[35px] text-[#0C0047] xl:leading-[57px] lg:tracking-[0.02em] my-1 '>
+                    <p className='font-["Poppins"] font-bold text-xl lg:text-2xl xl:text-[40px] text-[#0C0047] xl:leading-[57px] lg:tracking-[0.02em] my-1 '>
                         The Best <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#0D6EFD] to-[#6803A6]'>
                             Software Development
                         </span>
@@ -42,13 +32,24 @@ const Banner = () => {
                         </span>
                     </p>
 
-                    <img className='w-full md:w-[350px] mx-auto lg:hidden py-2' src={homeBannerImage} alt="" />
+                    {/* for mobile only  */}
+                    <div className='relative md:hidden mt-6'>
+                        <figure>
+                            <div className='flex justify-center'>
+                                <img className='absolute rounded-[4px] drop-shadow-2xl w-[300px] md:w-full' src={bigLayer} alt="" />
+                            </div>
+                            <img className='absolute rounded-[4px] drop-shadow-2xl top-[70px] w-[70px]' src={layer2} alt="" />
+                            <img className='absolute rounded-[4px] drop-shadow-2xl top-[135px] w-[100px] ' src={layer1} alt="" />
+                            <img className='absolute rounded-[4px] drop-shadow-2xl top-[100px] right-0 w-[90px] ' src={layer3} alt="" />
+                        </figure>
+                    </div>
 
-                    <p className='font-["Nunito"] font-normal text-xs md:text-sm lg:text-base text-[#1E1E1E]'>
-                        Lorem ipsum dolor sit amet consectetur. Justo fusce eu vitae ultrices vulputate placerat nisl volutpat. Id at in laoreet nibh leo mauris. At turpis adipiscing risus nec id est eget. Etiam viverra ornare ullamcorper cum.Lorem ipsum dolor sit amet consectetur. At turpis adipiscing risus nec id est eget. Etiam viverra ornare ullamcorper cum.
+
+                    <p className='font-["Nunito"] font-normal text-xs md:text-sm lg:text-base text-[#1E1E1E] w-full max-w-[640px] mt-[240px] md:mt-[18px] md:leading-[22px]'>
+                        Our software development firm is dedicated to building a better future for everyone by creating innovative and reliable software solutions.<span className='text-[#006CEC] cursor-pointer md:hidden'>..Read More</span> <span className='hidden md:block'>We believe in staying ahead of the curve by constantly learning and implementing new technologies to ensure that our clients receive the best possible products. With a strong focus on user experience and functionality, we aim to provide software that meets the needs and desires of our clients and their customers alike.</span>
                     </p>
 
-                    <div className='flex items-center justify-center lg:justify-start gap-6 mt-5 md:mt-8'>
+                    <div className='flex items-center justify-center lg:justify-start gap-6 mt-5 md:mt-[44px]'>
                         <button className='bg-[#006CEC] rounded-md text-white font-medium text-base md:leading-[30px] md:tracking-[-0.02em] py-[10px] px-[30px]'>
                             More Details
                         </button>
@@ -64,19 +65,19 @@ const Banner = () => {
 
 
                 {/* right side  */}
-                <div className='lg:w-1/2 hidden lg:block'>
-                    <img className='' src={homeBannerImage} alt="" />
+                <div className='lg:w-1/2 lg:max-w-lg 2xl:max-w-4xl hidden lg:block relative'>
+                    <figure>
+                        <img className='absolute rounded-2xl drop-shadow-2xl' src={bigLayer} alt="" />
+                        <img className='absolute rounded-2xl drop-shadow-2xl lg:-left-10 2xl:-left-20 lg:top-[100px] 2xl:top-[135px] lg:w-[150px] 2xl:w-[200px]' src={layer2} alt="" />
+                        <img className='absolute rounded-2xl drop-shadow-2xl lg:-left-10 2xl:-left-20 lg:top-[230px] 2xl:top-[335px] lg:w-40 2xl:w-60' src={layer1} alt="" />
+                        <img className='absolute rounded-2xl drop-shadow-2xl lg:-right-10 2xl:-right-10 lg:top-40 2xl:top-56 lg:w-36 2xl:w-52 ' src={layer3} alt="" />
+                    </figure>
                 </div>
-            </div>
-
-            <div className='absolute top-[230px] lg:top-[290px] right-2 lg:right-5'>
-                <div><img className='w-11 h-11 cursor-pointer hover:scale-110 mb-3' src={whatsappIco} alt="" /></div>
-                <div><img className='w-11 h-11 cursor-pointer hover:scale-110' src={messengerIco} alt="" /></div>
             </div>
 
             {/* backgroundImage  */}
             <div>
-                <img className='absolute top-0 z-[-1] h-[711px]' src={bannerBG} alt="" />
+                <img className='absolute top-0 z-[-1] h-[650px] 2xl:h-[788px] w-full max-w-[1920px]' src={bannerBG} alt="" />
             </div>
         </section>
     );

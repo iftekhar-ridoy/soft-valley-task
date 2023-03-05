@@ -47,7 +47,7 @@ const Testimonial = () => {
     ]
 
     return (
-        <section className='mt-20 xl:mt-[350px] mx-5 xl:mx-[120px]'>
+        <section className='max-w-[1282px] mx-auto mt-32 xl:mt-[480px] 2xl:mt-[520px] px-5 xl:px-0'>
             <div className='text-center font-["Manrope"]'>
                 <h2 className='text-[#F15524] font-extrabold text-lg lg:leading-[25px]'>Testimonial</h2>
                 <h1 className='text-[#0C0047] text-[20px] lg:text-[40px] lg:leading-[56px] tracking-[-0.03em] font-bold mt-3 -mb-10 lg:-mb-0'>What Our Happy Client Says</h1>
@@ -55,13 +55,6 @@ const Testimonial = () => {
 
             <div className='cardSlider mt-[50px]'>
                 <Swiper
-                    // style={{
-                    //     "--swiper-pagination-color": "#FFFFFF",
-                    //     "--swiper-pagination-bullet-inactive-color": "#999999",
-                    //     "--swiper-pagination-bullet-inactive-opacity": "1",
-                    //     "--swiper-pagination-bullet-size": "10px",
-                    //     "--swiper-pagination-bullet-horizontal-gap": "6px"
-                    // }}
                     className="mySwiper h-[500px] md:h-[350px] lg:h-[650px] xl:h-[580px]"
                     slidesPerView={3}
                     spaceBetween={30}
@@ -73,7 +66,7 @@ const Testimonial = () => {
                     }}
 
                     loop={true}
-                    loopFillGroupWithBlank={true}
+                    // loopFillGroupWithBlank={true}
                     // navigation={true}
 
                     autoplay={{
@@ -116,7 +109,7 @@ const Testimonial = () => {
                                                         </div>
                                                     </div>
                                                     <div className='mt-7'>
-                                                        <p className='text-sm md:text-base font-["Poppins"] text-[#525252] leading-[24px]'>{testimonial.description}</p>
+                                                        <p className='text-sm md:text-base font-["Poppins"] text-[#6D6D6D] leading-[24px] custom-c'>{testimonial.description}</p>
                                                     </div>
                                                 </div>
                                             </SwiperSlide>

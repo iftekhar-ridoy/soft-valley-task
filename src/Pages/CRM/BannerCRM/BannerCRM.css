@@ -1,0 +1,12 @@
+.crmSwiper .swiper-pagination-bullet-active {
+    height: 16px;
+    width: 16px;
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    border: 2px solid #F15524;
+    background: #F15524;
+}
+
+.crmSwiper .swiper-pagination-bullet {
+    height: 16px;
+    width: 16px;
+}

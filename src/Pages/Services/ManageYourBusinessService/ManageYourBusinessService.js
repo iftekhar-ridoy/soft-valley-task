@@ -32,9 +32,9 @@ const ManageYourBusinessService = () => {
         },
     ]
     return (
-        <section className='px-5 xl:px-[120px] lg:mt-[90px]'>
+        <section className='max-w-[1282px] mx-auto px-5 lg:px-0 lg:mt-[90px]'>
             <h1 className='font-["Manrope"] font-extrabold text-2xl lg:text-[40px] text-[#0C0047] lg:leading-[55px] tracking-[0.005em] text-center'>Soft Valley Manage Your <span className='text-[#F15524]'>Business</span></h1>
-            <h3 className='font-["Manrope"] text-xs md:text-base md:leading-8 tracking-[0.5px] text-[ #64607D] text-center mt-5'>We make it easy for users to use our platform, that's why we provide this benefit.</h3>
+            <h3 className='font-["Manrope"] text-xs md:text-base md:leading-8 tracking-[0.5px] text-[#64607D] text-center mt-5'>We make it easy for users to use our platform, that's why we provide this benefit.</h3>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-7 lg:mt-[60px]'>
                 {

@@ -3,10 +3,21 @@
     background: #F15524;
 }
 
-.mySwiper .swiper-slide-next {
+/* .mySwiper .swiper-slide-next {
     margin-top: -80px;
-}
+} */
 
 .mySwiper .swiper-slide-next .qoutation {
     display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .mySwiper .swiper-slide-next {
+        margin-top: -80px;
+    }
+
+    .mySwiper .swiper-slide-next .custom-c {
+        color: #262626;
+        font-weight: 500;
+    }
 }

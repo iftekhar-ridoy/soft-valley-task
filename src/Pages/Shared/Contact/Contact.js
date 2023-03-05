@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section className='mx-5 xl:mx-[120px] mt-20 lg:mt-[150px]'>
+        <section className='max-w-[1281px] mx-auto px-5 xl:px-0 mt-20 lg:mt-[150px]'>
             <div className='flex flex-col lg:flex-row justify-center'>
 
                 <div className='font-["Manrope"] w-full lg:w-1/2'>
@@ -14,7 +14,7 @@ const Contact = () => {
 
 
                 <div className='w-full lg:w-1/2 flex flex-col lg:items-end mt-5 lg:mt-0'>
-                    <div className='shadow-[0px_80px_85px_rgba(153,171,219,0.2)] p-3 lg:p-12 rounded-[5px] lg:rounded-[20px] border border-[#FA9483]'>
+                    <div className='w-full max-w-[564px] shadow-[0px_80px_85px_rgba(153,171,219,0.2)] p-3 lg:p-12 rounded-[5px] lg:rounded-[20px] border border-[#FA9483]'>
                         <form>
                             <div>
                                 <input type="text" placeholder='First Name'
