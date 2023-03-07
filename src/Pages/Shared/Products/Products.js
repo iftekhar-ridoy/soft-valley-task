@@ -98,11 +98,11 @@ const Products = () => {
                         <Link to={`${product.path}`} key={product.id}>
                             <div >
                                 <div
-                                    className={`ease-in duration-300 flex flex-col items-center justify-center text-center px-3 py-3 md:px-[30px] md:py-[50px] rounded-lg h-full md:h-[300px] xl:w-[275px] ${product.cardColor} ${product.hoverCardColor} group`}
+                                    className={`duration-300 flex flex-col items-center justify-center text-center px-3 py-3 md:px-[30px] md:py-[50px] rounded-lg h-full md:h-[300px] xl:w-[275px] ${product.cardColor} group hvr-sweep-to-right `}
                                 >
                                     <img className='w-[68px] h-[64px] ease-in duration-300' src={product.productImag} alt="" />
-                                    <h2 className='font-["Manrope"] font-bold text-base md:text-xl text-[#0C0047] my-[15px] group-hover:text-white'>{product.productName}</h2>
-                                    <p className='font-["Manrope"] font-normal text-xs md:text-[15px] text-[#64607D] group-hover:text-white'>{product.description}</p>
+                                    <h2 className='font-["Manrope"] font-bold text-base md:text-xl text-[#0C0047] my-[15px]'>{product.productName}</h2>
+                                    <p className='font-["Manrope"] font-normal text-xs md:text-[15px] text-[#64607D]'>{product.description}</p>
                                 </div>
                             </div>
                         </Link>

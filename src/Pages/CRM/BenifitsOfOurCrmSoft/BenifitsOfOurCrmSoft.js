@@ -89,7 +89,7 @@ const BenifitsOfOurCrmSoft = () => {
                         <div key={data.id}>
                             <div className='h-full'>
                                 <div
-                                    className={`cursor-pointer ease-in duration-300 flex flex-col items-center justify-center text-center px-3 py-3 md:px-[20px] md:py-[50px] rounded-lg h-full md:h-[300px] xl:w-[275px] ${data.cardColor} group hvr-sweep-to-right `}
+                                    className={`ease-in duration-300 flex flex-col items-center justify-center text-center px-3 py-3 md:px-[20px] md:py-[50px] rounded-lg h-full md:h-[300px] xl:w-[275px] ${data.cardColor} group hvr-sweep-to-right `}
                                 >
                                     <img className='w-[68px] h-[64px] ease-in duration-300' src={data.pic} alt="" />
                                     <h2 className='font-["Manrope"] font-bold text-base md:text-xl text-[#0C0047] my-[15px] md:leading-[27px]'>{data.title}</h2>

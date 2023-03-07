@@ -17,20 +17,20 @@ const Contact = () => {
                     <div className='w-full max-w-[564px] shadow-[0px_80px_85px_rgba(153,171,219,0.2)] p-3 lg:p-12 rounded-[5px] lg:rounded-[20px] border border-[#FA9483]'>
                         <form>
                             <div>
-                                <input type="text" placeholder='First Name'
+                                {/* name  */}
+                                <input type="text" placeholder='Your Name'
                                     className="w-full lg:max-w-[484px] py-[17px]  mx-auto outline-none  px-5 border border-solid border-[#CFCFCF] text-sm md:text-[16px] text-[#584F49] font-['Manrope'] placeholder-[#584F49] md:leading-[26px] rounded-[5px]"
                                 />
                             </div>
-                            <div className='mt-5'>
-                                <input type="text" placeholder='Last Name'
-                                    className="w-full lg:max-w-[484px] py-[17px]  mx-auto outline-none  px-5 border border-solid border-[#CFCFCF] text-sm md:text-[16px] text-[#584F49] font-['Manrope'] placeholder-[#584F49] md:leading-[26px] rounded-[5px]"
-                                />
-                            </div>
+
+                            {/* email */}
                             <div className='mt-5'>
                                 <input type="email" placeholder='Email Address'
                                     className="w-full lg:max-w-[484px] py-[17px]  mx-auto outline-none  px-5 border border-solid border-[#CFCFCF] text-sm md:text-[16px] text-[#584F49] font-['Manrope'] placeholder-[#584F49] md:leading-[26px] rounded-[5px]"
                                 />
                             </div>
+
+                            {/* message  */}
                             <div className='mt-5'>
                                 <textarea
                                     className="form-control block w-full lg:max-w-[484px]  px-5 py-[17px] text-sm md:text-base font-normal text-[#584F49] placeholder-[#584F49] font-['Manrope'] border border-solid border-[#CFCFCF] rounded-[5px] transition ease-in-out m-0 focus:outline-none h-[165px]"
@@ -40,11 +40,13 @@ const Contact = () => {
                                 ></textarea>
 
                             </div>
-                            <div className='mt-5 flex items-center'>
+                            {/* <div className='mt-5 flex items-center'>
                                 <input type="checkbox" name="" id="" />
                                 <p className='text-[#584F49] text-xs md:text-[16px] leading-[26px] font-["Manrope"] ml-3'>by clicking here you agree to our <span className='text-[#3734A9]'>terms and policy</span>.</p>
-                            </div>
+                            </div> */}
                         </form>
+
+                        {/* send button  */}
                         <div>
                             <button className='font-["Poppins"] text-sm font-semibold text-white bg-[#006CEC] px-[24px] py-3 lg:py-[16px] shadow-md rounded-[4px] lg:leading-[24px] mt-5'>Send Message</button>
                         </div>

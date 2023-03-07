@@ -77,7 +77,7 @@ const Navbar = () => {
             {/* contact  */}
             <li>
                 <NavLink
-                    to="messages"
+                    to="/contact"
                     style={({ isActive }) =>
                         isActive ? activeStyle : undefined
                     }

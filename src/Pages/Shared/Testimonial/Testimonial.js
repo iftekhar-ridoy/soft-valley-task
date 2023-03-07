@@ -44,6 +44,20 @@ const Testimonial = () => {
             profession: "UI/UX Designer",
             description: "Lorem ipsum dolor sit amet consectetur. Enim ue feentum ornare sagittis rutrum lectus lorem. Nec lorem netus ullmcorper magna orare neq met maeced tesque. Neque ltus fucibus nec morbi sed. Tincint quis tes libero morb berNe e dictum lorem nulla arcu pretium. Nibh egestas  faucibus vel id. Pellentesque commodo digsim nulla non et. Velit diam orci quis ut egt vulputte odio. Velit diam orci quis ut egt vulputate odio.quis ut egt vulputte odio. Velit diam orci quis ut egt vulputate odio."
         },
+        {
+            id: 5,
+            image: person2,
+            name: "Iftekhar Ridoy",
+            profession: "Front-end Dev",
+            description: "Lorem ipsum dolor sit amet consectetur. Enim ue feentum ornare sagittis rutrum lectus lorem. Nec lorem netus ullmcorper magna orare neq met maeced tesque."
+        },
+        {
+            id: 6,
+            image: person2,
+            name: "Tushar khan",
+            profession: "UI/UX Designer",
+            description: "Lorem ipsum dolor sit amet consectetur. Enim ue feentum ornare sagittis rutrum lectus lorem. Nec lorem netus ullmcorper magna orare neq met maeced tesque. Neque ltus fucibus nec morbi sed. Tincint quis tes libero morb berNe e dictum lorem nulla arcu pretium. Nibh egestas  faucibus vel id. Pellentesque commodo digsim nulla non et. Velit diam orci quis ut egt vulputte odio. Velit diam orci quis ut egt vulputate odio.quis ut egt vulputte odio. Velit diam orci quis ut egt vulputate odio."
+        },
     ]
 
     return (
@@ -57,7 +71,7 @@ const Testimonial = () => {
                 <Swiper
                     className="mySwiper h-[500px] md:h-[350px] lg:h-[650px] xl:h-[580px]"
                     slidesPerView={3}
-                    spaceBetween={30}
+                    // spaceBetween={40}
 
                     freeMode={true}
 
@@ -70,21 +84,22 @@ const Testimonial = () => {
                     // navigation={true}
 
                     autoplay={{
-                        delay: 3000
+                        delay: 3000,
+                        disableOnInteraction: false,
                     }}
 
                     breakpoints={{
                         300: {
                             slidesPerView: 1,
-                            spaceBetween: 40,
+                            // spaceBetween: 40,
                         },
                         768: {
                             slidesPerView: 1,
-                            spaceBetween: 40,
+                            // spaceBetween: 40,
                         },
                         1024: {
                             slidesPerView: 3,
-                            spaceBetween: 40,
+                            // spaceBetween: 40,
                         }
                     }}
                     modules={[FreeMode, Pagination, Autoplay, Navigation]}
@@ -93,11 +108,11 @@ const Testimonial = () => {
                         {
                             testimonials.length &&
                             <>
-                                <div>
+                                <div className='h-full'>
                                     {
                                         testimonials?.map((testimonial) => (
                                             <SwiperSlide key={testimonial.id}>
-                                                <div className='border border-[#FDBC64] rounded-[20px] p-5 shadow-lg mt-10 lg:mt-20 relative'>
+                                                <div className='border border-[#FDBC64] rounded-[20px] p-5 shadow-lg mt-10 lg:mt-20 relative mx-1'>
                                                     <img className='qoutation absolute w-[74px] h-[48px] top-[-30px] right-[100px]' src={qoutation} alt="" />
                                                     <div className='flex items-center gap-6'>
                                                         <div>

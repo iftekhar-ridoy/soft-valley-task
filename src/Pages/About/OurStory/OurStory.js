@@ -8,11 +8,11 @@ const OurStory = () => {
         <div className="lg:flex gap-10 lg:flex-row items-center">
           <img
             src={img}
-            className="lg:w-[633px] h-[411px] rounded-lg shadow-2xl "
+            className="lg:w-[633px] lg:h-[411px] rounded-lg shadow-2xl "
             alt=""
           />
           <div className="mx-auto ">
-            <h1 className="font-semibold text-[45px] leading-[64px] text-[#0C0047] font-['Poppins']">Our Story</h1>
+            <h1 className="mt-5 lg:mt-0 font-semibold text-[45px] leading-[64px] text-[#0C0047] font-['Poppins']">Our Story</h1>
             <p className="py-6 text-[#64607D] text-base">
               Soft Valley mounts on its decade long industry experience,
               superior technical skills and highest quality of support services

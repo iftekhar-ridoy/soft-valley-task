@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
                 <h3 className='text-[#F15524] text-base lg:text-[18px] lg:leading-[25px]'>WHY SOFT VALLEY?</h3>
                 <h1 className='text-[#0C0047] text-2xl lg:text-[40px] lg:leading-[69px] tracking-[0.005em]'>Why Choose Us</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mt-10 lg:mt-[70px]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 lg:mt-[70px]'>
                 {
                     reasons?.map(reason =>
                         <div key={reason.id}>

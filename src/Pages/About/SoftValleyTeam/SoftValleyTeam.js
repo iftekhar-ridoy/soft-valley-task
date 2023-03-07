@@ -4,13 +4,13 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-import { Autoplay, FreeMode, Pagination, Thumbs } from "swiper";
+import { Autoplay, FreeMode, Thumbs } from "swiper";
 
 import img1 from '../../../Assets/images/about/team/img1.png';
 import img2 from '../../../Assets/images/about/team/img2.png';
 import img3 from '../../../Assets/images/about/team/img3.png';
 import img4 from '../../../Assets/images/about/team/img4.png';
-import img5 from '../../../Assets/images/about/team/img5.png';
+// import img5 from '../../../Assets/images/about/team/img5.png';
 
 
 
@@ -47,7 +47,7 @@ const SoftValleyTeam = () => {
         </p>
       </div >
 
-      <div className="mt-5">
+      <div className="mt-5 lg:mt-24">
         <Swiper
           spaceBetween={10}
           //   navigation={true}
@@ -61,7 +61,7 @@ const SoftValleyTeam = () => {
             clickable: true,
           }}
           modules={[Autoplay, Thumbs, FreeMode]}
-          className="w-full mx-auto lg:h-[600px]"
+          className=" w-full mx-auto h-[200px] lg:h-[600px]"
         >
           <div className="">
             {teams.map((team) => (
@@ -71,6 +71,7 @@ const SoftValleyTeam = () => {
             ))}
           </div>
         </Swiper>
+
         <Swiper
           spaceBetween={40}
           centeredSlides={true}
