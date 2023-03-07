@@ -2,6 +2,7 @@ import React from 'react';
 import picture1 from '../../../Assets/images/manageYourBusinessHome/Picture1.png';
 import picture2 from '../../../Assets/images/manageYourBusinessHome/Picture2.png';
 import picture3 from '../../../Assets/images/manageYourBusinessHome/Picture3.png';
+import ReadMoreReadLess from '../../Shared/ReadMoreReadLess/ReadMoreReadLess';
 
 const ManageYourBusiness = () => {
     const businesses = [
@@ -40,7 +41,11 @@ const ManageYourBusiness = () => {
 
                                 <h2 className='my-[15px] text-[#0C0047] text-[22px] font-["Manrope"] font-bold leading-[30px] tracking-[-0.408px]'>{business.name}</h2>
 
-                                <p className='text-[#757095] font-["Manrope"] text-base leading-[30px] tracking-tight'>{business.description.slice(0, 200)} <span className='text-[#006CEC] cursor-pointer'>...Read More</span> </p>
+                                {/* <p className='text-[#757095] font-["Manrope"] text-base leading-[30px] tracking-tight hidden lg:block'>{business.description.slice(0, 200)} <span className='text-[#006CEC] cursor-pointer'>...Read More</span> </p> */}
+
+                                <ReadMoreReadLess limit={200} readClass={'text-[#757095] font-["Manrope"] leading-[30px] tracking-tight'} readBtn={'text-[#006CEC]'}>
+                                    {business.description}
+                                </ReadMoreReadLess>
                             </div>
                         </div>)
                 }

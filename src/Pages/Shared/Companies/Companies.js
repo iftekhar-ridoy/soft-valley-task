@@ -47,7 +47,7 @@ const Companies = () => {
 
             <div className='my-5 md:my-12 mx-5 md:mx-0 flex '>
                 <div className='w-[100%]'>
-                    <Marquee className='' speed={100}>
+                    <Marquee className='' speed={30}>
                         <div className='flex flex-row '>
                             {
                                 companies.map((data) => (

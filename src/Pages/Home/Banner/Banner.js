@@ -6,6 +6,7 @@ import bigLayer from '../../../Assets/images/homeBanner/Background.png';
 import layer1 from '../../../Assets/images/homeBanner/Layer 1.png';
 import layer2 from '../../../Assets/images/homeBanner/Layer 2.png';
 import layer3 from '../../../Assets/images/homeBanner/Layer 3.png';
+import ReadMoreReadLess from '../../Shared/ReadMoreReadLess/ReadMoreReadLess';
 
 const Banner = () => {
     return (
@@ -19,7 +20,7 @@ const Banner = () => {
                     </h3>
 
                     <p className='font-["Poppins"] font-bold text-xl lg:text-2xl xl:text-[40px] text-[#0C0047] xl:leading-[57px] lg:tracking-[0.02em] my-1 '>
-                        The Best <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#0D6EFD] to-[#6803A6]'>
+                        The Best <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#0D6EFD] to-[#6803A6] '>
                             Software Development
                         </span>
                         <br />
@@ -45,9 +46,12 @@ const Banner = () => {
                     </div>
 
 
-                    <p className='font-["Nunito"] font-normal text-xs md:text-sm lg:text-base text-[#1E1E1E] w-full max-w-[640px] mt-[240px] md:mt-[18px] md:leading-[22px]'>
-                        Our software development firm is dedicated to building a better future for everyone by creating innovative and reliable software solutions.<span className='text-[#006CEC] cursor-pointer md:hidden'>..Read More</span> <span className='hidden md:block'>We believe in staying ahead of the curve by constantly learning and implementing new technologies to ensure that our clients receive the best possible products. With a strong focus on user experience and functionality, we aim to provide software that meets the needs and desires of our clients and their customers alike.</span>
+                    <p className='font-["Nunito"] font-normal text-xs md:text-sm lg:text-base text-[#1E1E1E] w-full max-w-[640px] mt-[240px] md:mt-[18px] md:leading-[22px] hidden lg:block'>
+                        Our software development firm is dedicated to building a better future for everyone by creating innovative and reliable software solutions We believe in staying ahead of the curve by constantly learning and implementing new technologies to ensure that our clients receive the best possible products. With a strong focus on user experience and functionality, we aim to provide software that meets the needs and desires of our clients and their customers alike.
                     </p>
+                    <ReadMoreReadLess limit={120} readClass={'lg:hidden font-["Nunito"] font-normal text-sm mt-[240px]'} readBtn={'text-[#006CEC]'}>
+                        Our software development firm is dedicated to building a better future for everyone by creating innovative and reliable software solutions. We believe in staying ahead of the curve by constantly learning and implementing new technologies to ensure that our clients receive the best possible products. With a strong focus on user experience and functionality, we aim to provide software that meets the needs and desires of our clients and their customers alike.
+                    </ReadMoreReadLess>
 
                     <div className='flex items-center justify-center lg:justify-start gap-6 mt-5 md:mt-[44px]'>
                         <button className='bg-[#006CEC] rounded-md text-white font-medium text-base md:leading-[30px] md:tracking-[-0.02em] py-[10px] px-[30px]'>

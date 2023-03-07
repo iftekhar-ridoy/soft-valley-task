@@ -1,4 +1,4 @@
-/* Sweep To Right */
+/* Sweep To up */
 .hvr-sweep-to-right {
     transform: perspective(1px) translateZ(0);
     position: relative;
@@ -14,8 +14,8 @@
     bottom: 0;
     z-index: -1;
     background: lightgray;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
+    transform: scaleY(0);
+    transform-origin: bottom center;
     transition: transform 0.3s ease-out;
 }
 
@@ -24,5 +24,6 @@
 }
 
 .hvr-sweep-to-right:hover:before {
-    transform: scaleX(1);
+    transform: scaleY(1);
+    border-radius: 8px;
 }

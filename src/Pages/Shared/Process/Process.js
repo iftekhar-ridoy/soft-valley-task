@@ -9,9 +9,6 @@ const Process = () => {
                 <h1 className='font-["Manrope"] font-extrabold text-2xl lg:text-[40px] text-[#0C0047] lg:leading-[48px] tracking-[0.005em] mb-2'>We have the best team <br />
                     and best process</h1>
                 <p className='text-[#64607D] text-xs md:text-[15px] font-medium font-["Manrope"] lg:leading-7 max-w-md mb-5'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy.</p>
-
-
-                <button className='flex items-center  font-["Poppins"] font-medium text-base text-white hover:text-[#006CEC] bg-[#006CEC] hover:bg-white border hover:border-[#006CEC] rounded-[7px] py-[7px] md:py-[15px] px-10 md:px-[70px]'>See Demo</button>
             </div>
 
             <div className='-ml-5 mt-[-50px] md:mt-[-120px] lg:mt-[-180px] xl:mt-[-220px] relative'>

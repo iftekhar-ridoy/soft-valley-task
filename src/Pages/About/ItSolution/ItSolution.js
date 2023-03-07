@@ -24,7 +24,7 @@ const ItSolution = () => {
             <div className="card-body lg:w-1/2 bg-[#3734A9] text-white">
               <div className="flex justify-between">
 
-                <h2 className="mt-28 text-[45px] font-semibold leading-[60px] font-['Manrope']">Quality <br /> is Number One</h2>
+                <h2 className="lg:mt-28 text-[30px] lg:text-[45px] font-semibold lg:leading-[60px] font-['Manrope'] mb-14 lg:mb-0">Quality <br /> is Number One</h2>
                 <h1 className="hidden lg:block font-['Poppins'] font-[800] text-[250px] ppp -mt-14">
                   1
                 </h1>
@@ -49,7 +49,7 @@ const ItSolution = () => {
             <div className="card-body lg:w-1/2 bg-[#3734A9] text-white">
               <div className="flex justify-between">
 
-                <h2 className="mt-28 text-[45px] font-semibold leading-[60px] font-['Manrope']">Create <br /> Customer Value</h2>
+                <h2 className="lg:mt-28 text-[30px] lg:text-[45px] font-semibold lg:leading-[60px] font-['Manrope'] mb-14 lg:mb-0">Create <br /> Customer Value</h2>
                 <h1 className="hidden lg:block  font-['Poppins'] font-[800] text-[250px] ppp -mt-14">
                   2
                 </h1>
@@ -77,7 +77,7 @@ const ItSolution = () => {
             <div className="card-body lg:w-1/2 bg-[#3734A9] text-white">
               <div className="flex justify-between">
 
-                <h2 className="mt-28 text-[45px] font-semibold leading-[60px] font-['Manrope']">Create <br /> Stakeholder Value</h2>
+                <h2 className="lg:mt-28 text-[30px] lg:text-[45px] font-semibold lg:leading-[60px] font-['Manrope']  mb-14 lg:mb-0">Create <br /> Stakeholder Value</h2>
                 <h1 className="hidden lg:block font-['Poppins'] font-[800] text-[250px] ppp -mt-14">
                   3
                 </h1>
